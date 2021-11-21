@@ -15,7 +15,7 @@ def random_mini_batches(X, Y, mini_batch_size = 64, seed = 0):
     # shuffle
     permutation = list(np.random.permutation(m))
     shuffled_X = X[:, permutation]
-    shuffled_Y = Y[:, permutation].reshape((1,m))
+    shuffled_Y = Y[:, permutation].reshape((Y.shape[0],m))
 
     num_complete_minibatches = math.floor(m/mini_batch_size) # the number of mini batches
     for k in range(0, num_complete_minibatches):

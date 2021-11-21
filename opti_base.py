@@ -6,7 +6,7 @@ import sklearn
 import sklearn.datasets
 
 
-def init_params(layer_dims):
+def init_params(layer_dims, num_class):
 
     np.random.seed(3)
     parameters = {}
