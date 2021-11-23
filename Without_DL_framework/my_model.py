@@ -8,6 +8,7 @@ import sklearn.datasets
 def sigmoid(x):
 
     s = 1/(1+np.exp(-x))
+   
     return s
 
 def relu(x):
@@ -19,7 +20,6 @@ def relu(x):
 def softmax(Z):
     
     S = np.exp(Z + np.max(Z)) / np.sum(np.exp(Z + np.max(Z)), axis = 0)
-    
     return S
 
 
