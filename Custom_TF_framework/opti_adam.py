@@ -1,3 +1,7 @@
+from keras.optimizers import Optimizer
+from keras.legacy import interfaces
+from keras import backend as K
+
 class custom_Adam(Optimizer):
 
     def __init__(self, lr = 0.001, beta1 = 0.9, beta2 = 0.999,
