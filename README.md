@@ -2,10 +2,10 @@
 - Implementation of optimization techniques in machine learning
 - Nov. 11, 2021 ~ Present
 
-## 1. Implementing neural networks without using deep learning frameworks | [Code](https://github.com/OH-Seoyoung/ML_Optimization_Methods/tree/master/Without_DL_framework)
+### 1. Implementing neural networks without using deep learning frameworks | [Code](https://github.com/OH-Seoyoung/ML_Optimization_Methods/tree/master/Without_DL_framework)
 - Mini-batch gradient descent, Momentum, RMSprop, Adam
 
-## 2. Implementing custom optimizer in tensorflow.keras | [Code](https://github.com/OH-Seoyoung/ML_Optimization_Methods/tree/master/Custom_TF_framework)
+### 2. Implementing custom optimizer in tensorflow.keras | [Code](https://github.com/OH-Seoyoung/ML_Optimization_Methods/tree/master/Custom_TF_framework)
 - Adam
 
 ### Dataset
