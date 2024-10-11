@@ -1,6 +1,6 @@
 # Machine Learning Optimization Methods
 - Implementation of optimization techniques in machine learning
-- Nov. 11, 2021 ~ Present
+- Nov. 11, 2021
 
 ### 1. Implementing neural networks without using deep learning frameworks | [Code](https://github.com/OH-Seoyoung/ML_Optimization_Methods/tree/master/Without_DL_framework)
 - Mini-batch gradient descent, Momentum, RMSprop, Adam
